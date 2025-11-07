@@ -15,6 +15,12 @@ function Home() {
           <img src={Config} alt="Configuration Icon" className='setting-top'/>
         </div>
       </div>
+
+      <div className='title-home'>
+        <div className='title-home-page'>
+          <h2>My Projects:</h2>
+        </div>
+      </div>
     </div>
   );
 }
