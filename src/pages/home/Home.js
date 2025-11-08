@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <div className='top'>
         <div className='left-top'>
           <h1 className='tittle-aplication'>AlCommit</h1>
@@ -19,6 +19,17 @@ function Home() {
       <div className='title-home'>
         <div className='title-home-page'>
           <h2>My Projects:</h2>
+        </div>
+        <div className='actions-home'>
+          <select className='select-filter'>
+            <option value="all">None</option>
+            <option value="all">Finshed</option>
+            <option value="all">In Progress</option>
+            <option value="all">Paused</option>
+            <option value="all">Thinking</option>
+            <option value="all">Canceled</option>
+          </select>
+          <button className='btn-add-project'>+ New Project</button>
         </div>
       </div>
     </div>

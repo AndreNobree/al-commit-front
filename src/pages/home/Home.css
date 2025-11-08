@@ -13,7 +13,7 @@
 .tittle-aplication{
     padding-left: 20px;
     padding-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     color: #449F1A;  
     cursor: pointer;
 }
@@ -33,4 +33,39 @@
 }
 .right-top img{
     cursor: pointer;
+}
+.title-home{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-home-page{
+    padding-left: 25px;
+    color: #449F1A;
+    font-family:'Courier New', Courier, monospace;
+}
+.actions-home{
+    padding-right: 25px;
+}
+.select-filter{
+    width: 120px;
+    padding: 8px;
+    border: none;
+    color: #449F1A;
+    outline: none;
+    cursor: pointer;
+}
+.btn-add-project{
+    padding: 8px 12px;
+    margin-left: 20px;
+    background-color: #449F1A;
+    border: none;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+.btn-add-project:hover{
+    background-color: rgb(79, 182, 31);
 }
