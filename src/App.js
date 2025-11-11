@@ -4,7 +4,7 @@ import Project from './pages/project/Project.js';
 function App() {
   return (
     <div className="App">
-      <Project />
+      <Home />
     </div>
   );
 }
